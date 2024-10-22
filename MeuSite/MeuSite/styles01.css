@@ -1,0 +1,107 @@
+body {
+    background-color: #000;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start
+}
+
+h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 60px;
+    color: blue;
+    text-align: center;
+    margin: 25px
+}
+
+h2 {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center
+}
+
+.quadrado {
+    position: absolute;
+    top: 0;
+    width: 1490px;
+    height: 400px;
+    background-color: #2d2d30;
+    border-radius: 20px;
+    z-index: 1;
+    margin-top: 180px;
+    left: 20px
+}
+
+.movie-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    z-index: 2;
+    position: relative;
+    margin-top: 50px
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    position: relative;
+    z-index: 3
+}
+
+.titulosfilmesBOCDT {
+    position: relative;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 15px;
+    color: #fff;
+    margin: -8px;
+    z-index: 4;
+    margin-left: -3px
+}
+
+.titulosfilmesVU {
+    position: relative;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 15px;
+    color: #fff;
+    margin: -7px;
+    z-index: 4;
+    margin-left: 430px;
+    margin-top: -40px
+}
+
+.titulosfilmesSTARWARS {
+    position: relative;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 15px;
+    color: #fff;
+    margin: -7px;
+    z-index: 4;
+    margin-left: 800px;
+    margin-top: -40px
+}
+
+.titulosfilmesHPPF {
+    position: relative;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 15px;
+    color: #fff;
+    z-index: 4;
+    margin-left: 1190px;
+    margin-top: -40px
+}
